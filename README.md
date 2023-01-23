@@ -4,7 +4,7 @@
 
 This is a sample responsive calculator website
 
-You can view the Web App here [click here] (https://github.com/amalvishnurk/Calculator.git)
+You can view the Web App here [click here] (https://github.com/amalvishnurk/Calculator.git).
 
 ###### Tech stack
 - HTML
