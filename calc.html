@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-secondary">
+    <!-- Calculator Body -->
+    <h1 style="text-align:center; color: rgb(9, 48, 82);">CALCULATOR</h1>
+    <div class="calc-body">
+
+        <!-- Calculator Display Screen -->
+        <div class="calc-screen">
+            <div >
+                <input id="results" type="text" class="form-control">
+            </div>
+            
+        </div>
+
+        <!-- Calculator Buttons -->
+        <div class="calc-button-row">
+            <button onclick="allclear()" class="ac">AC</button>
+            <button onclick="opposite()" class="opt">&#43;&#47;&#8722;</button>
+            <button onclick="display('%')" class="opt">&#37;</button>
+            <button onclick="display('/')" class="opt">&#247;</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')" >9</button>
+            <button onclick="display('*')" class="opt">&#215;</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')" class="opt">&#8722;</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <!-- <button class="opt">&#43;</button> -->
+            <button onclick="display('+')" class="opt">+</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="dlt()">&#9003;</button>
+            <button onclick="calc()" class="opt">&#61;</button>
+        </div>
+    </div>
+</body>
+<script src="calc.js"></script>
+
+</html>
