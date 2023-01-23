@@ -1,2 +1,15 @@
 # Calculator
-![image](https://user-images.githubusercontent.com/112233831/213979905-673f4ffd-f89d-4f76-9985-d96b63b0c72d.png)
+
+## About the project
+
+This is a sample responsive calculator website
+
+You can view the Web App here [click here] ()
+
+###### Tech stack
+-HTML
+*CSS
++Bootstarp
+
+###### Screeshots
+![calculator](https://user-images.githubusercontent.com/112233831/213981878-ac349e2d-276e-49cd-9001-d119c29151ec.png)
